@@ -21,6 +21,10 @@ console.log(jsonStudent);
 
 
 
-let jsonStudent= JSON.parse(jsonStudent);
-console.log(jsonStudent);
+let parsedStudent= JSON.parse(jsonStudent);
+console.log(parsedStudent);
+console.log (student === parsedStudent);
+
+
+
 
