@@ -19,7 +19,7 @@ let jsonStudent = JSON.stringify(student);
 
 console.log(jsonStudent);
 
-let jsonStudent = '{"name"}';
+
 
 let jsonStudent= JSON.parse(jsonStudent);
 console.log(jsonStudent);
