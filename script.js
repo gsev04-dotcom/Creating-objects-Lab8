@@ -15,7 +15,7 @@ console.log ("Age:", student.age);
 console.log(student.displayInfo());
 
 
-let jsonStudent = JSON.stringify(obj);
+let jsonStudent = JSON.stringify(student);
 
 console.log(jsonStudent);
 
