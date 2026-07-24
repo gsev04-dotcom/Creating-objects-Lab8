@@ -41,3 +41,11 @@ console.log(firstScore,secondScore);
 
 let clonedStudent = {student, graduationYear: 2029};
 console.log(clonedStudent);
+
+
+
+let newCourses= [English, Javascript, Science];
+ let combinedCourses = {student ,courses , newCourses};
+
+ console.log(combinedCourses);
+
