@@ -7,8 +7,16 @@ let student =  {
      
 		displayInfo: function() {
 		return "Student: " + this.name + " Age: " + this.age  + " Enrolled: " + this.enrolled;
-}
+
+
+addCourse: function (newCourse) {
+	this.courses.push (newCourse);
+	console.log(newCourse + "has been added");
+ 
+
 };
+ student.addCourse("Information Techology");
+
 
 
 
@@ -53,9 +61,4 @@ let newCourses= ["Physics", "Javascript", "Science"];
  console.log(combinedCourses);
 
 
- addCourse: function(newCourse) {
-	this.courses.push (newCourse);
-	console.log(newCouse + "has been added");
- }
-
- student.addCouse("Information Techology");
+ 
