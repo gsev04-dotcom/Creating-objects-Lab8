@@ -26,5 +26,9 @@ console.log(parsedStudent);
 console.log (student === parsedStudent);
 
 
+let {name, courses} = student;
+
+
+console.log (name, student);
 
 
