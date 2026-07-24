@@ -13,10 +13,17 @@ let student =  {
 addCourse: function (newCourse) {
 	this.courses.push (newCourse);
 	console.log(newCourse + "has been added");
-}
+},
 
+
+caluculateTotalCourses: function () {
+	this.courses.length;
+}
 };
+
+
  student.addCourse("Information Techology");
+ console.log ("Total number of courses" + student.caluculateTotalCourses());
 
 
 
