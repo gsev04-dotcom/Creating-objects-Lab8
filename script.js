@@ -44,7 +44,7 @@ console.log(clonedStudent);
 
 
 
-let newCourses= [English, Javascript, Science];
+let newCourses= [Physics, Javascript, Science];
  let combinedCourses = {student ,courses , newCourses};
 
  console.log(combinedCourses);
