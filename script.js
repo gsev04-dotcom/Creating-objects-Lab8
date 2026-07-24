@@ -10,6 +10,9 @@ let student =  {
 }
 };
 
+
+
+
 console.log("Name:", student.name);
 console.log ("Age:", student.age);
 console.log(student.displayInfo());
@@ -49,3 +52,10 @@ let newCourses= ["Physics", "Javascript", "Science"];
 
  console.log(combinedCourses);
 
+
+ addCourse: function(newCourse) {
+	this.course (newCourse);
+	console.log(newCouse + "has been added");
+ }
+
+ student.addCouse("Information Techology");
