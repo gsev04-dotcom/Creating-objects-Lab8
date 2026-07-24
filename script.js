@@ -17,13 +17,12 @@ addCourse: function (newCourse) {
 
 
 caluculateTotalCourses: function () {
-	this.courses.length;
+	return this.courses.length;
 }
 };
 
 
- student.addCourse("Information Techology");
- console.log ("Total number of courses" + student.caluculateTotalCourses());
+ 
 
 
 
@@ -69,4 +68,5 @@ let newCourses= ["Physics", "Javascript", "Science"];
  console.log(combinedCourses);
 
 
- 
+ student.addCourse("Information Techology");
+ console.log ("Total number of courses: " + student.caluculateTotalCourses());
