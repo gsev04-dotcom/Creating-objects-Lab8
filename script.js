@@ -54,7 +54,7 @@ let newCourses= ["Physics", "Javascript", "Science"];
 
 
  addCourse: function(newCourse) {
-	this.course (newCourse);
+	this.courses.push (newCourse);
 	console.log(newCouse + "has been added");
  }
 
