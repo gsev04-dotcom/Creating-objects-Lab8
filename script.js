@@ -70,3 +70,12 @@ let newCourses= ["Physics", "Javascript", "Science"];
 
  student.addCourse("Information Techology");
  console.log ("Total number of courses: " + student.caluculateTotalCourses());
+
+
+let total= scores.reduce(function(total,score) {
+	return total + score;
+
+}, 0);
+
+ let averageScore = total/scores.length;
+ console.log ("Average Score:" , averageScore);
