@@ -7,12 +7,13 @@ let student =  {
      
 		displayInfo: function() {
 		return "Student: " + this.name + " Age: " + this.age  + " Enrolled: " + this.enrolled;
+		},
 
 
 addCourse: function (newCourse) {
 	this.courses.push (newCourse);
 	console.log(newCourse + "has been added");
- 
+}
 
 };
  student.addCourse("Information Techology");
